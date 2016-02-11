@@ -6,9 +6,11 @@
 
 //#include <FishFeeder.h>
 
-//#include <Motor.h>
-//#include <Motor.h>
-#include <Motor.h>
+
+#include <RODoser.h>
+#include <ServoMotor.h>
+#include <FishFeeder.h>
+
 #include "StandardCplusplus.h"
 #include <vector>
 #include "Servo.h"

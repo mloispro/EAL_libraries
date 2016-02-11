@@ -21,21 +21,27 @@
     <ClInclude Include="..\libraries\SerialExt\SerialExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\Motor\Motor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\libraries\FishFeeder\FishFeeder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="__vm\.EAL_libraries.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\libraries\ServoMotor\ServoMotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\RODoser\RODoser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libraries\Motor\Motor.cpp">
+    <ClCompile Include="..\libraries\FishFeeder\FishFeeder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\libraries\FishFeeder\FishFeeder.cpp">
+    <ClCompile Include="..\libraries\ServoMotor\ServoMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\RODoser\RODoser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
