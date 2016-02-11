@@ -33,6 +33,9 @@
     <ClInclude Include="..\libraries\RODoser\RODoser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\libraries\AnalogSwitch\AnalogSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\libraries\FishFeeder\FishFeeder.cpp">

@@ -7,6 +7,7 @@
 //#include <FishFeeder.h>
 
 
+#include <AnalogSwitch.h>
 #include <RODoser.h>
 #include <ServoMotor.h>
 #include <FishFeeder.h>
