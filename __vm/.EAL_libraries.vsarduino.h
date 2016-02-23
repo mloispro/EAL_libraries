@@ -94,4 +94,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\libraries\SerialExt\SerialExt.h>
 #include <..\libraries\ServoMotor\ServoMotor.cpp>
 #include <..\libraries\ServoMotor\ServoMotor.h>
+#include <..\..\..\..\..\Program Files (x86)\Arduino\libraries\SimpleTimer\SimpleTimer.cpp>
+#include <..\..\..\..\..\Program Files (x86)\Arduino\libraries\SimpleTimer\SimpleTimer.h>
+#include <..\libraries\TimerExt\TimerExt.h>
 #endif
