@@ -5,20 +5,25 @@
 
 
 //#include <FishFeeder.h>
-
-
-#include <SimpleTimer.h>
-#include <AnalogSwitch.h>
-#include <RODoser.h>
-#include <ServoMotor.h>
-#include <FishFeeder.h>
-
 #include "StandardCplusplus.h"
 #include <vector>
 #include "Servo.h"
-#include "SerialExt.h"
 
+
+#include "SerialExt.h"
 using namespace Utils;
+
+#include <SimpleTimer.h>
+#include <AnalogSwitch.h>
+#include <ServoMotor.h>
+#include <RODoser.h>
+#include <FishFeeder.h>
+
+
+
+
+
+
 
 void setup() {
 	// initialize digital pin 13 as an output.
@@ -33,8 +38,8 @@ void loop() {
 	delay(1000);              // wait for a second
 	digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
 	delay(1000);              // wait for a second
-	//FishFeeder feeder(Servo(), 7, 2);
+	FishFeeder feeder(Servo(), 7, 2);
 	//FishFeeder::Feeders.push_back(feeder);
-
+	bool t = feeder.ShouldRunMotor(7);
 
 }
