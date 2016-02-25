@@ -5,6 +5,9 @@
 
 
 //#include <FishFeeder.h>
+#include <EEWrap.h>
+#include <EEPROM.h>
+#include <TimerExt.h>
 #include "StandardCplusplus.h"
 #include <vector>
 #include "Servo.h"
@@ -40,6 +43,6 @@ void loop() {
 	delay(1000);              // wait for a second
 	FishFeeder feeder(Servo(), 7, 2);
 	//FishFeeder::Feeders.push_back(feeder);
-	bool t = feeder.ShouldRunMotor(7);
+	//bool t = feeder.ShouldRunMotor(7);
 
 }
