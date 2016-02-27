@@ -92,6 +92,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\libraries\FishFeeder\FishFeeder.h>
 #include <..\libraries\RODoser\RODoser.cpp>
 #include <..\libraries\RODoser\RODoser.h>
+#include <..\libraries\RunScheduleExt\RunScheduleExt.h>
 #include <..\libraries\SerialExt\SerialExt.h>
 #include <..\libraries\ServoMotor\ServoMotor.cpp>
 #include <..\libraries\ServoMotor\ServoMotor.h>

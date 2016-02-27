@@ -5,6 +5,7 @@
 
 
 //#include <FishFeeder.h>
+#include <RunScheduleExt.h>
 #include <EEWrap.h>
 #include <EEPROM.h>
 #include <TimerExt.h>
