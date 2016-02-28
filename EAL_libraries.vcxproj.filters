@@ -42,6 +42,12 @@
     <ClInclude Include="..\libraries\RunScheduleExt\RunScheduleExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\libraries\DigitalTime\DigitalTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\RTCExt\RTCExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\libraries\FishFeeder\FishFeeder.cpp">

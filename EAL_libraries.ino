@@ -5,6 +5,12 @@
 
 
 //#include <FishFeeder.h>
+#include <RTCExt.h>
+#include <Wire.h>
+#include <TimeLib.h>
+#include <Time.h>
+#include <DS3232RTC.h>
+#include <DigitalTime.h>
 #include <RunScheduleExt.h>
 #include <EEWrap.h>
 #include <EEPROM.h>

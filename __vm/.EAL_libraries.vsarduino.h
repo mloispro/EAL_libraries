@@ -88,10 +88,12 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\EAL_libraries\EAL_libraries.ino>
 #include <..\libraries\AnalogSwitch\AnalogSwitch.cpp>
 #include <..\libraries\AnalogSwitch\AnalogSwitch.h>
+#include <..\libraries\DigitalTime\DigitalTime.h>
 #include <..\libraries\FishFeeder\FishFeeder.cpp>
 #include <..\libraries\FishFeeder\FishFeeder.h>
 #include <..\libraries\RODoser\RODoser.cpp>
 #include <..\libraries\RODoser\RODoser.h>
+#include <..\libraries\RTCExt\RTCExt.h>
 #include <..\libraries\RunScheduleExt\RunScheduleExt.h>
 #include <..\libraries\SerialExt\SerialExt.h>
 #include <..\libraries\ServoMotor\ServoMotor.cpp>
