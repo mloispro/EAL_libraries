@@ -5,6 +5,7 @@
 
 
 //#include <FishFeeder.h>
+#include <PinValMemoryExt.h>
 #include <RTCExt.h>
 #include <Wire.h>
 #include <TimeLib.h>
