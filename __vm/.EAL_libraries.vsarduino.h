@@ -70,6 +70,10 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\libraries\DigitalTime\DigitalTime.h>
 #include <..\libraries\FishFeeder\FishFeeder.cpp>
 #include <..\libraries\FishFeeder\FishFeeder.h>
+#include <..\libraries\LCDMenu\LCDMenu.cpp>
+#include <..\libraries\LCDMenu\LCDMenu.h>
+#include <..\libraries\LCDMenuController\LCDMenuController.cpp>
+#include <..\libraries\LCDMenuController\LCDMenuController.h>
 #include <..\libraries\PinValMemoryExt\PinValMemoryExt.h>
 #include <..\libraries\RODoser\RODoser.cpp>
 #include <..\libraries\RODoser\RODoser.h>

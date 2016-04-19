@@ -51,6 +51,12 @@
     <ClInclude Include="..\libraries\PinValMemoryExt\PinValMemoryExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\libraries\LCDMenu\LCDMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\LCDMenuController\LCDMenuController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\libraries\FishFeeder\FishFeeder.cpp">
@@ -63,6 +69,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\libraries\AnalogSwitch\AnalogSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\LCDMenu\LCDMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\LCDMenuController\LCDMenuController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
