@@ -27,16 +27,10 @@
     <ClInclude Include="__vm\.EAL_libraries.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\ServoMotor\ServoMotor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\libraries\RODoser\RODoser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\AnalogSwitch\AnalogSwitch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\TimerExt\TimerExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\RunScheduleExt\RunScheduleExt.h">
@@ -48,13 +42,13 @@
     <ClInclude Include="..\libraries\RTCExt\RTCExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\PinValMemoryExt\PinValMemoryExt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\libraries\LCDMenu\LCDMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\LCDMenuController\LCDMenuController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\PinValMemoryExt\PinValMemoryExt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
