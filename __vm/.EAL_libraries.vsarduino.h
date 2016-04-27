@@ -73,6 +73,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\libraries\LCDMenu\LCDMenu.h>
 #include <..\libraries\LCDMenuController\LCDMenuController.cpp>
 #include <..\libraries\LCDMenuController\LCDMenuController.h>
+#include <..\libraries\MemoryExt\MemoryExt.h>
 #include <..\libraries\PinValMemoryExt\PinValMemoryExt.h>
 #include <..\libraries\RODoser\RODoser.cpp>
 #include <..\libraries\RODoser\RODoser.h>
@@ -80,4 +81,5 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\libraries\RunScheduleExt\RunScheduleExt.h>
 #include <..\libraries\SerialExt\SerialExt.h>
 #include <..\libraries\ServoMotor\ServoMotor.cpp>
+#include <..\libraries\ServoMotor\ServoMotor.h>
 #endif
